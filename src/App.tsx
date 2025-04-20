@@ -1,7 +1,7 @@
-import CardHover from "./case-studies/CardHover";
+import DownloadArrow from "./case-studies/downloadArrow";
 
 function App() {
-  return <CardHover />;
+  return <DownloadArrow />;
 }
 
 export default App;
