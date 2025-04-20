@@ -1,7 +1,7 @@
-import DownloadArrow from "./case-studies/downloadArrow";
+import Toaster from "./case-studies/Toast";
 
 function App() {
-  return <DownloadArrow />;
+  return <Toaster />;
 }
 
 export default App;
