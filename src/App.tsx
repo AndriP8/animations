@@ -1,7 +1,7 @@
-import BounceBal from "./case-studies/bounce-ball";
+import CardHover from "./case-studies/CardHover";
 
 function App() {
-  return <BounceBal />;
+  return <CardHover />;
 }
 
 export default App;

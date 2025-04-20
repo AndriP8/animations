@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --shadow-cardhover-container: 0px 0px 0px 1px rgba(9, 9, 11, 0.08),
+    0px 1px 2px -1px rgba(9, 9, 11, 0.08), 0px 2px 4px 0px rgba(9, 9, 11, 0.04);
+  --shadow-cardhover-description: 0px 0px 0px 1px rgba(0, 0, 0, 0.08),
+    0px 1px 2px -1px rgba(0, 0, 0, 0.08), 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
+  --shadow-3xl: 0 3px 35px rgba(0, 0, 0, 0.25);
+}
+
 @layer components {
   .center-container {
     @apply my-10 w-full flex flex-col items-center;
