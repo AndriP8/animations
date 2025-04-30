@@ -37,4 +37,10 @@
     animation-delay: calc(0.1s * var(--index));
     color: red;
   }
+
+  /* Clip Path */
+  .tabs-clip-path-container {
+    transition: clip-path 0.25s ease;
+    clip-path: inset(0px 75% 0px 0% round 17px);
+  }
 }
