@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 import ScrollTriggered from "./motions/ScrollAnimations";
 import ScrollProgress from "./motions/ScrollProgress";
+import SharedLayout from "./motions/SharedLayout";
 
 function App() {
   const [copied, setCopied] = useState(false);
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="center-container">
       <ScrollProgress />
+      <SharedLayout />
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
         animate={{
