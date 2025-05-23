@@ -3,6 +3,7 @@ import { useState } from "react";
 import ScrollTriggered from "./motions/ScrollAnimations";
 import ScrollProgress from "./motions/ScrollProgress";
 import SharedLayout from "./motions/SharedLayout";
+import FeedbackComponentCSS from "./motions/ButtonPopover";
 
 function App() {
   const [copied, setCopied] = useState(false);
@@ -16,6 +17,7 @@ function App() {
     <div className="center-container">
       <ScrollProgress />
       <SharedLayout />
+      <FeedbackComponentCSS />
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
         animate={{
