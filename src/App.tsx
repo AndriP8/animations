@@ -1,9 +1,9 @@
-import MultiStepComponent from "./motions/MultiStepComponent";
+import TrashAnimation from "./motions/TrashAnimations";
 
 function App() {
   return (
     <div className="center-container">
-      <MultiStepComponent />
+      <TrashAnimation />
     </div>
   );
 }
